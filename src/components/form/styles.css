@@ -79,7 +79,8 @@
     padding-left: 20px;
     font-size: 1rem;
     background-color: #F8F9FA;
-    border: none;
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
     width: 80px;
     margin-right: 10px;
     background: url("../../assets/R$.png") no-repeat 70px;
@@ -93,6 +94,8 @@
 input[type=number] { 
    -moz-appearance: textfield;
    appearance: textfield;
+   border: 2px solid #F8F9FA;
+   border-radius: 8px;
 }
 
 .div-input select{
@@ -108,7 +111,7 @@ input[type=number] {
     font-size: 16px;
     background: url("../../assets/ANGLE-DOWN.png") no-repeat 145px;
     text-indent: 4px;
-    text-overflow: '';
+    
 }
 
 .select{
