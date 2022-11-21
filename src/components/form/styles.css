@@ -58,6 +58,7 @@
 .form button:hover{
     transition: all 0.6s;
     background-color: #E34981;
+    cursor: pointer;
 }
 
 .conteiner-input-type{
@@ -88,10 +89,7 @@
     color: #868E96;
 }
 
-input[type=number]::-webkit-inner-spin-button { 
-    -webkit-appearance: none;
-    
-}
+
 input[type=number] { 
    -moz-appearance: textfield;
    appearance: textfield;
@@ -109,14 +107,13 @@ input[type=number] {
     font-weight: 400;
     font-size: 16px;
     background: url("../../assets/ANGLE-DOWN.png") no-repeat 145px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
     text-indent: 4px;
     text-overflow: '';
 }
 
 .select{
     margin-left: 58px;
+    cursor: pointer;
 }
 
 
@@ -124,7 +121,9 @@ input[type=number] {
 .select-init{
     color: #868E96;
 }
-
+.conteiner-filter button {
+    cursor: pointer;
+}
 
 @media only screen and (max-width: 430px) {  
     
